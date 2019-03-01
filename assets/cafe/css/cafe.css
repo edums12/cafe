@@ -1,0 +1,134 @@
+.login{
+    padding: 2rem 0;
+}
+
+.login .card{
+    margin: 0 auto;
+    box-shadow: none;
+    border: 1px solid #ddd;
+}
+
+.login .card .input-field{
+    margin: 0 auto;
+}
+
+nav,
+.nav-wrapper{
+    box-shadow: none;
+}
+
+.btn-cafe{
+    display: block;
+    box-shadow: none;
+    text-align: left;
+    position: relative;
+}
+
+.btn-cafe span:last-child{
+    position: absolute;
+    right: 1rem;
+}
+
+.consumo{
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-bottom: 2.5rem;
+    padding-top: 1rem;
+}
+
+.d-block { display: block; }
+.font-normal { font-size: 1.2rem; }
+.no-padding { padding: 0; }
+.no-margin { margin: 0; }
+.line-heigth-normal { line-height: 1.2; }
+.margin-top-0 { margin-top: 0 }
+
+.align-items-center{ display: flex; align-items: center; }
+
+.row-progress span{
+    padding-bottom: .6rem;
+}
+
+.row-progress{
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after {
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #2196f3;
+    background-color: #2196f3;
+    z-index: 0;
+}
+
+
+.input-field input[type=text]:focus + label,
+.input-field input[type=number]:focus + label {
+    color: #2196f3 !important;
+}
+
+.input-field input[type=text],
+.input-field input[type=number]{
+    box-shadow: none;
+}
+
+.input-field input[type=text]:focus,
+.input-field input[type=number]:focus {
+    border-bottom: 1px solid #2196f3 !important;
+    box-shadow: none;
+}
+
+
+table input[type="checkbox"]+span{
+    text-align: center !important; 
+    padding-left: 20px !important; 
+    margin-top: 10px !important;
+}
+
+#configuracoes .title{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+#configuracoes ul li a{
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+#configuracoes ul li:last-child a{
+    border-bottom: none;
+}
+
+#configuracoes ul li a > span{
+    display: flex;
+    align-items: center;
+    color: #555;
+}
+
+#configuracoes ul li a > span i{
+    padding: .7rem;
+    border-radius: 3px;
+    margin-right: 1rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+}
+
+#configuracoes ul li a span > .titulo{
+    color: #2196f3;
+    display: block;
+    font-weight: bold;
+}
+
+#configuracoes .group{
+    padding: .5rem;
+}
+
+#configuracoes table{
+    margin-bottom: 2rem;
+}
